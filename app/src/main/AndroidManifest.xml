@@ -22,5 +22,4 @@
         <activity android:name=".ui.ChoiceColorActivity"
             android:screenOrientation="portrait"/>
     </application>
-
 </manifest>
