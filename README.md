@@ -3,3 +3,5 @@
 ![image](https://github.com/xuancao/DynamicSkin/blob/master/screenshot/skinchange1.png)
 ![image](https://github.com/xuancao/DynamicSkin/blob/master/screenshot/skinchange2.png)
 ![image](https://github.com/xuancao/DynamicSkin/blob/master/screenshot/skinchange3.png)
+
+参考：library参考https://github.com/cseshaiban/app-theme-engine-master中的依赖库
