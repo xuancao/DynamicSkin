@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义标题 -->
+    <declare-styleable name="TitleBar">
+        <attr name="titleText" format="integer" />
+        <attr name="titleIcon" format="integer" />
+        <attr name="leftIcon" format="integer" />
+        <attr name="leftText" format="integer" />
+        <attr name="rightIcon" format="integer" />
+        <attr name="rightText" format="integer" />
+        <attr name="leftSubIcon" format="integer" />
+        <attr name="leftSubText" format="integer" />
+        <attr name="rightSubIcon" format="integer" />
+        <attr name="rightSubText" format="integer" />
+        <attr name="bgColor" format="integer" />
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+</resources>

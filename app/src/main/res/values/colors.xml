@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc413a</color>
+    <color name="colorPrimaryDark">#cc413a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_bar">#cc413a</color><!--标题栏色调-->
+    <color name="global_color">#cc413a</color><!--主色调-->
+
+    <!--灰色分割线-->
+    <color name="line_divider">#dedede</color>
+    <!--卡片颜色-->
+    <color name="card_color">#ffffff</color>
+    <!--标题最右边文本颜色-->
+    <color name="text_white">#FFFFFF</color>
+    <!--标题右边文本颜色-->
+    <color name="text_gray">#666666</color>
+    <color name="text_black">#333333</color>
+
+
+    <color name="red_color">#d23c3e</color>
+    <color name="orange_color">#ff8400</color>
+    <color name="black_color">#161616</color>
+    <color name="green_color">#009944</color>
+    <color name="blue_color">#0284e9</color>
+    <color name="cyan_color">#01e2c5</color>
+    <color name="purple_color">#8c00d6</color>
+</resources>

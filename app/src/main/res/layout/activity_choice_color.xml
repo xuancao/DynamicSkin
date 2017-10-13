@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xuancao.dynamicskin.view.TitleBar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:bgColor="@color/colorPrimary"
+        app:leftIcon="@mipmap/back_gray_icon"
+        app:rightText="@string/use"
+        app:titleText="@string/choice_color" />
+
+    <ImageView
+        android:id="@+id/iv_change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="23dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@mipmap/home_preview_pic1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/public_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="@color/line_divider"/>
+
+        <com.xuancao.dynamicskin.view.HorizontalListView xmlns:widget="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/horizontal_listview"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            widget:dividerWidth="5dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@mipmap/back_gray_icon" />
+
+            <com.xuancao.dynamicskin.view.ColorPickerView
+                android:id="@+id/color_picker"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

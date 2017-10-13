@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DynamicSkin</string>
+    <string name="cancel">返回</string>
+    <string name="change_skin">修改皮肤</string>
+    <string name="main_acitivy">主界面</string>
+
+    <!--首页用到的字段-->
+    <string name="tab_home">首页</string>
+    <string name="tab_game">比赛</string>
+    <string name="tab_circle">动态</string>
+    <string name="tab_find">发现</string>
+    <string name="tab_my">个人</string>
+
+    <string name="use">使用</string>
+    <string name="choice_color">选择颜色</string>
+</resources>
