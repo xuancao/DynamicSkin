@@ -4,4 +4,6 @@
 ![image](https://github.com/xuancao/DynamicSkin/blob/master/screenshot/skinchange2.png)
 ![image](https://github.com/xuancao/DynamicSkin/blob/master/screenshot/skinchange3.png)
 
+博客地址 http://www.jianshu.com/p/dcc076de9192
+
 参考：library参考https://github.com/cseshaiban/app-theme-engine-master中的依赖库
